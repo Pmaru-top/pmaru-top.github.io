@@ -34,19 +34,20 @@
   <!-- feed -->
   <!-- 页面元数据 -->
   <title>Pmaru's blog</title>
-  <meta name="keywords" content="Pmaru,blog">
-  <meta desc name="description" content="Pmaru的博客 - Pmaru - Pmaru's blog">
+  <meta name="keywords" content="Pmaru,blog,code">
+  <meta desc name="description" content="这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程 - Pmaru - Pmaru's blog">
   
 <meta property="og:type" content="website">
 <meta property="og:title" content="Pmaru&#39;s blog">
 <meta property="og:url" content="https://blog.pmaru.top/index.html">
 <meta property="og:site_name" content="Pmaru&#39;s blog">
-<meta property="og:description" content="Pmaru的博客">
+<meta property="og:description" content="这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:author" content="Pmaru">
 <meta property="article:tag" content="Pmaru">
 <meta property="article:tag" content="blog">
+<meta property="article:tag" content="code">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2274,7 +2275,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690899206376),
+    lastupdate: new Date(1690905635755),
     cdn: {
       izitoast_css: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2630,13 +2631,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class='post-wrapper'>
             <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://blog.pmaru.top/2023/07/30/如何创建一个tg机器人/">
+  <link itemprop="mainEntityOfPage" href="https://blog.pmaru.top/2023/07/30/如何创建一个TG机器人/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Pmaru's blog">
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
     <meta itemprop="name" content="Pmaru's blog">
-    <meta itemprop="description" content="Pmaru的博客">
+    <meta itemprop="description" content="这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程">
   </span>
   
   
@@ -2648,18 +2649,32 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
     <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/07/30/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAtg%E6%9C%BA%E5%99%A8%E4%BA%BA/"  itemprop="url">
-        如何创建一个tg机器人
+      <a href="/2023/07/30/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AATG%E6%9C%BA%E5%99%A8%E4%BA%BA/"  itemprop="url">
+        如何创建一个TG机器人
       </a>
     </h2>
   
   <div class='md article-desc' itemprop="articleBody">
     
       
-        前言123456781. TG机器人是什么?    - TG机器人是一个完全在Telegram应用程序内运行的小型应用程序，机器人支持任何类型的任务或服务2. 我可以创建TG机器人吗？    - 当然，每个人都可以创建属于自己的TG机器人3. 我需要准备什么？    - 只需要一台计算机（用于开发与调试）和VPS（如果你想要长期托管）
+        如何创建一个TG机器人？前言TG机器人是什么?
+
+TG机器人是一个完全在Telegram应用程序内运行的小型应用程序，机器人支持任何类型的任务或服务
 
 
-🪧 如果你来自中国大陆地区，可能无法访问本文部分链...
+我可以创建TG机器人吗？
+
+当然，每个人都可以创建属于自己的TG机器人
+
+
+我需要准备什么？
+
+只需要一台计算机（用于开发与调试）和VPS（如果你想要长期托管）
+
+
+通过本教程，我将学到什么
+
+通过本教程，你将学到创建TG机器人账户并管理T...
       
     
   </div>
@@ -2680,7 +2695,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       </div>
       
         <div>
-          <a class='readmore' href='/2023/07/30/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAtg%E6%9C%BA%E5%99%A8%E4%BA%BA/' itemprop="url">
+          <a class='readmore' href='/2023/07/30/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AATG%E6%9C%BA%E5%99%A8%E4%BA%BA/' itemprop="url">
             阅读全文
           </a>
         </div>
@@ -3399,7 +3414,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Pmaru's blog","url":"https://blog.pmaru.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Pmaru","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.pmaru.top/","sameAs":["https://github.com/volantis-x"],"description":"Pmaru的博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://blog.pmaru.top/","name":"Pmaru's blog"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Pmaru's blog","url":"https://blog.pmaru.top/","keywords":["Pmaru","blog"],"description":"Pmaru的博客","author":{"@type":"Person","name":"Pmaru","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.pmaru.top/","description":"Pmaru的博客"},"publisher":{"@type":"Organization","name":"Pmaru's blog","url":"https://blog.pmaru.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://blog.pmaru.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"Pmaru的博客","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Pmaru","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.pmaru.top/"},"publisher":{"@type":"Organization","name":"Pmaru's blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Pmaru's blog","url":"https://blog.pmaru.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Pmaru","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.pmaru.top/","sameAs":["https://github.com/volantis-x"],"description":"这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://blog.pmaru.top/","name":"Pmaru's blog"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Pmaru's blog","url":"https://blog.pmaru.top/","keywords":["Pmaru","blog","code"],"description":"这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程","author":{"@type":"Person","name":"Pmaru","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.pmaru.top/","description":"这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程"},"publisher":{"@type":"Organization","name":"Pmaru's blog","url":"https://blog.pmaru.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://blog.pmaru.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"这是Pmaru的博客,主要分享kotlin,golang使用一些库的教程","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Pmaru","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.pmaru.top/"},"publisher":{"@type":"Organization","name":"Pmaru's blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
